@@ -9,8 +9,8 @@ The **Research Paper Assistant** is a Streamlit-based application that allows us
 - **Fetch top research papers** from arXiv based on user queries.
 - **Filter papers** by year range, journal, and author.
 - **Store papers in a vector database** using FAISS for efficient retrieval.
-- **Interact with an AI chatbot** powered by OpenAI's `gpt-4-turbo` model.
-- **Cite research sources** with superscript hyperlinks in chatbot responses.
+- **Interact with an AI chatbot** powered by OpenAI's `gpt-4-turbo` model. (Currently takes a long time for responses. Improving performnace in next version)
+- **Cite research sources** with superscript hyperlinks in chatbot responses.(Improving UI to incorporate better referencing to research papers)
 - **User input for OpenAI API key** to ensure secure and customizable API access.
 
 ## Technologies Used
@@ -27,7 +27,7 @@ The **Research Paper Assistant** is a Streamlit-based application that allows us
 ### Requirements
 Ensure you have Python installed (>=3.8). The required dependencies are listed in requirements.txt. Install them using:
 
-```pip install -r requirements.txt```
+```pip install -r src/requirements.txt```
 
 
 ### Prerequisites
