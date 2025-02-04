@@ -25,7 +25,6 @@ The **Research Paper Assistant** is a Streamlit-based application that allows us
 ## Installation & Setup
 
 ### Requirements
-
 Ensure you have Python installed (>=3.8). The required dependencies are listed in requirements.txt. Install them using:
 
 ```pip install -r requirements.txt```
