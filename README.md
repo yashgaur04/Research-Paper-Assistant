@@ -77,6 +77,7 @@ vector_db = Chroma.from_documents(documents, embeddings)
 - Adding multi-model functionality to include different models.
 - Improving runtime for faster retrieval and chatbot response.
 - Ability to download papers from Google Scholar in addition to arXiv.
+- Adding more research capabilities in Q/&A
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss.
