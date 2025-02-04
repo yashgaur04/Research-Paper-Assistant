@@ -1,0 +1,11 @@
+streamlit
+langchain
+langchain_community
+openai
+faiss-cpu
+pydantic
+arxiv
+numpy
+pandas
+tqdm
+
