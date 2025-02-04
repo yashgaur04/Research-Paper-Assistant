@@ -47,7 +47,7 @@ pip install streamlit langchain langchain_community openai faiss-cpu pydantic ar
 
 2. **Run the Streamlit app**:
    ```bash
-   streamlit run streamlit_ui.py
+   streamlit run streamlitUI.py
    ```
 
 3. **Enter your OpenAI API Key** when prompted.
@@ -68,7 +68,7 @@ python -m unittest arxivFetch.py
 ```
 
 ## Alternative Vector Databases
-If FAISS is not working as expected, you can switch to **ChromaDB** by modifying `store_papers_in_vector_db` in `google_scholar_fetch.py`:
+If FAISS is not working as expected, you can switch to **ChromaDB** by modifying `store_papers_in_vector_db` in `arxivFetch.py`:
 ```python
 from langchain_community.vectorstores import Chroma
 vector_db = Chroma.from_documents(documents, embeddings)
