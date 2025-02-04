@@ -2,7 +2,7 @@
 
 
 ## Overview
-The **Research Paper Assistant** is a Streamlit-based application that allows users to retrieve the **top-cited research papers from arXiv**, process them using a **Retrieval-Augmented Generation (RAG) framework**, and interact with an **AI-powered chatbot** (GPT-4 Turbo via Azure OpenAI). The chatbot answers queries based on the retrieved papers while providing **hyperlinked citations**.
+The **Research Paper Assistant** is a Streamlit-based application that allows users to retrieve recent papers from arXiv, process them using a **Retrieval-Augmented Generation (RAG) framework**, and interact with an **AI-powered chatbot** (GPT-4 Turbo via Azure OpenAI). The chatbot answers queries based on the retrieved papers while providing **hyperlinked citations**.
 ![Alt text](src/appUI.png)
 
 ## Features
@@ -74,10 +74,11 @@ vector_db = Chroma.from_documents(documents, embeddings)
 ```
 
 ## Future Updates
+- Citation referencing to research papers will be improved in next update.
 - Adding multi-model functionality to include different models.
 - Improving runtime for faster retrieval and chatbot response.
 - Ability to download papers from Google Scholar in addition to arXiv.
-- Adding more research capabilities in Q&A
+- Adding more research capabilities in Q&A. 
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss.
